@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="integration.css">
+   <script src="https://unpkg.com/scrollreveal"></script>
+       <title>Integration Bee</title>
+</head>
+<body>
+    <div class="main">
+        <div class="nav-bar">
+            <a href="index.html">
+                <button>Home</button>
+            </a>
+            <a href="events.html">
+                <button>Events</button>
+            </a>
+            <a href="contact.html">
+                <button>Contact</button>
+            </a>
+        </div>
+    </div>
+<div class="major">
+<section class="sec-01">
+    <div class="container">
+        <h2 class="main-title">INTEGRATION BEE</h2>
+        <div class="content">
+            <div class="image">
+                <img src="integration1.png" alt="">
+            </div>
+            <div class="text-box" >
+                <h3>Integration Bee, 2022</h3>
+            <p>Inspired by the annual integration challenge conducted at MIT, the members 
+                of PaAC organized the event with the same name 'Integration Bee' but integrated
+                 with its own twists and quirks! First held in September 2022 the event witnessed
+                  enthusiastic participation of over 100+ students from various branches, with the event
+                    culminating with the top 3 teams as the winners of the nerdy tournament.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="sec-03">
+    <div class="container">
+        <h2 class="section-title">FORMAT OF THE TOURNAMENT</h2>
+        <div class="content">
+            <div class="media-info">
+                <li>Preliminary Round</li>
+                <li>Speed Solving</li>
+                <li>Relay</li>
+                <li>Nightmare Integral Solving</li>
+                <li>Hoard the Integrals</li>
+            </div>
+            <div class="image">
+                <img src="integration2.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+
+    <footer>
+        <div class="footer-content">
+        <div class="address">
+            <h2>Address</h2>
+            <p>Student Activity Center (SAC), Room No. 116, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand 247667</p>
+        </div>
+        <div class="contact">
+            <h2>Contact</h2>
+                <p>Sumedh : +91 9850672970</p>
+                <p>Prajwal : +91 9949216026</p>
+                <p>Khushi : +91 8168405906</p>
+        </div>
+        <div class="Email">
+            <h2>Email</h2>
+           <a href="mailto:paac@iitr.ac.in">paac@iitr.ac.in</a>
+        </div>
+        <div class="social-media">
+            <a href="https://www.instagram.com/astro_iitr/?hl=en">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+            </a>
+            <a href="https://x.com/paaciitr?lang=en">
+                <i class="fa-brands fa-x-twitter"></i>
+                Twitter
+            </a>
+            <a href="https://www.linkedin.com/company/paac-iitr/">
+                <i class="fa-brands fa-linkedin"></i>
+                Linkedin
+            </a>
+        </div>
+    </div>
+       </footer>
+       <script>
+    window.onload = function() {
+    ScrollReveal({
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+    }); 
+        ScrollReveal().reveal( '.main-title,.section-title' ,{delay:500, origin: 'left' });
+        ScrollReveal().reveal('.sec-01 .image,.media-info',{delay:600, origin: 'bottom' });
+        ScrollReveal().reveal('.text-box',{delay:700, origin: 'right' });
+        ScrollReveal().reveal('.sec-03 .image',{delay:600, origin: 'top' });
+        ScrollReveal().reveal('.media-info li',{delay:500, origin: 'left', interval:200 });
+    };
+       </script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.main-section{
+    position: relative;
+    /* height: 100vh; */
+    overflow: hidden;
+}
+.main {
+    height: 1230px;
+    width: 100vw;
+    background-image: url("bg.jpg");
+    background-size: contain; 
+    background-attachment: fixed; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    line-height:300%;
+    font-family: "Orbitron", serif;
+    overflow: hidden;
+}
+.mountains{
+    width: 100%;
+    position: absolute; 
+    bottom: 0;
+    right: 2px;
+}
+.text{
+    position: absolute;
+    top: 400px;
+}
+.main h1{
+    font-size: 4rem ;
+}
+.main h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 2rem;
+    padding-top: 8px;
+}
+/* .logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+} */
+.nav-bar{
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 1000px;
+    gap: 100px;
+    top: 0;
+}
+button{
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    color: #A5A5A5;
+    font-size: 1.5rem;
+    font-family: "Exo 2", serif;
+    font-weight: 600;
+}
+button:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-underline-offset: 5px;
+}
+.main-second{
+    height: 760px;
+    width: 100vw;
+    background-color: #001736;
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to bottom, #001736 60%, #000 100%);
+}
+.content-1{
+ width: 100vw;
+ padding: 60px;
+}
+.heading{
+    display: flex;
+}
+.cosmic{
+    /* padding-top: 30px; */
+    position: relative;
+    bottom: 38px;
+    height: 150px !important;
+    width: 200px !important;
+    padding-left: 30px;
+}
+.content-1 h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Orbitron", serif;
+    color: #b4b1b8;
+}
+.writing {
+    display: flex;
+}
+.writing p{
+    width: 50vw;
+    color:  #b4b1b8 ;
+    padding: 20px;
+    text-align: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    border: 5px dotted orange;
+}
+.writing  img{
+    height: 300px;
+    width: 450px;
+    border-radius: 1.5rem;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+footer{
+    width: 100vw;
+    clear: both;
+    padding: 0;
+    margin: 0 !important;
+    text-align: center;
+    background-color:  black;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    color:#ced7e0;
+    font-size: 1.1rem;
+}
+.footer-content h2{
+    font-family: "Josefin Sans", serif;
+    font-size: 2rem;
+}
+.footer-content a{
+    text-decoration: none;
+    color:#ced7e0;
+}
+.address{
+    width: 400px;
+    height: 160px;
+    text-align: left;
+}
+.contact{
+    text-align: left;
+}
+.Email{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-decoration: none;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.social-media a{
+    padding: 3px;
+}
+#events-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.event-card {
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.event-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#event-details {
+    padding: 20px;
+}
+
+.event-edition {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    #events-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
