@@ -11,7 +11,7 @@ html,body{
 .main {
     height: 200px;
     width: 100vw;
-    background-image: url("bg.jpg");
+    background-image: url("./pics/bg.jpg");
     background-size: contain; 
     background-attachment: fixed;  
     color: white; 
@@ -68,7 +68,6 @@ button:hover{
     padding-left: 40px;
     color: orange;
     font-family: "Exo 2", serif;
-    padding-top: 60px;
     font-size: 42px;
 }
 
