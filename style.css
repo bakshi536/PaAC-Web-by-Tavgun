@@ -46,17 +46,6 @@ body{
     font-size: 2rem;
     padding-top: 8px;
 }
-/* .logo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-top: 70px;
-    padding-left: 30px;
-}
-.logo img{
-    height: 100px;
-    width: 100px;
-} */
 .nav-bar{
     position: absolute;
     padding-top: 70px;
@@ -97,7 +86,6 @@ button:hover{
     display: flex;
 }
 .cosmic{
-    /* padding-top: 30px; */
     position: relative;
     bottom: 38px;
     height: 150px !important;
